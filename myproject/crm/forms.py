@@ -47,7 +47,7 @@ def create_customer(instance):
     # Cria Customer
     customer, _ = Customer.objects.get_or_create(
         user=instance,
-        # slug=slug,
+        slug=slug,
         person_type='c'
     )
 
