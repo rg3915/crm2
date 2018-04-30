@@ -6,6 +6,6 @@ def index(request):
     return render(request, 'index.html')
 
 
-@login_required
+# @login_required
 def dashboard(request):
     return render(request, 'dashboard.html')
